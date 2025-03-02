@@ -19,11 +19,68 @@ def reseter(grid, x, y, di=0):
         grid.grid[y - 1][x].layers_teeth_flags[2][(i - 5 + 5 + di + 8) % 8] = True
 
 
+def add_data_to_grid(grid, data, dx=0, dy=0):
+    """
+    Modify a given MultiLayerGearGrid using specified gear data.
+    
+    :param grid: The MultiLayerGearGrid instance to modify.
+    :param data: List of tuples containing (position, layer, active_teeth, optional is_driver).
+    :param dx: Horizontal shift for all positions.
+    :param dy: Vertical shift for all positions.
+    """
+    # Process gear data
+    for item in data:
+        pos, layer, active_teeth = item[:3]
+        is_driver = item[3] if len(item) > 3 else False
+        
+        shifted_pos = (pos[0] + dy, pos[1] + dx)
+        
+        if is_driver:
+            grid.grid[shifted_pos[0]][shifted_pos[1]].gear_type = 'Driver'
+        
+        for tooth in active_teeth:
+            grid.grid[shifted_pos[0]][shifted_pos[1]].layers_teeth_flags[layer][tooth] = True
+
+
+def create_OR_gate():
+    """
+    Create a MultiLayerGearGrid with dimensions 10x8 and 4 layers using add_data_to_grid.
+    """
+    rows, cols = 8, 20
+    num_layers = 4
+    
+    # Initialize the grid
+    grid = MultiLayerGearGrid(rows, cols, num_layers)
+    
+        # Define gear activation data (position, layer, active_teeth, is_driver)
+    data = [
+        [[2, 2], 0, list(range(8)), True],  # Index 0 - Driver gear with all teeth activated in layer 0
+        [[3, 2], 0, [1, 3, 5, 7]],  # Index 1 - Single gear with teeth 1, 3, 5, 7 active in layer 0
+        [[3, 2], 1, [0, 2, 4, 6]],  # Index 2 - Same gear with teeth 0, 2, 4, 6 active in layer 2
+        [[3, 1], 1, [1]],  # Index 3 - New gear to the left with tooth 7 active in layer 1
+        [[3, 1], 2, [5, 4]],  # Index 4 - New gear to the left with teeth 3, 4 active in layer 2
+        [[3, 0], 2, [1, 2], True],  # Index 5 - New driver to the left with teeth 1, 2 active in layer 2
+        [[4, 2], 0, list(range(8))],  # Index 6 - Three consecutive gears below (3,2) with all teeth active in layer 0
+        [[5, 2], 0, list(range(8))],  # Index 7 - Three consecutive gears below (3,2) with all teeth active in layer 0
+        [[6, 2], 0, list(range(8))],  # Index 8 - Three consecutive gears below (3,2) with all teeth active in layer 0
+        [[6, 2], 1, [2]],  # Index 9 - Gear at (6,2) with tooth 2 active in layer 1
+        [[3, 3], 1, [5]],  # Index 10 - Mirroring the left-side gear (3,1)
+        [[3, 3], 2, [0, 1]],  # Index 11 - Mirroring left-side activation
+        [[3, 4], 2, [1, 2], True]  # Index 12 - Mirroring the left driver at (3,0)
+    ]
+    
+    add_data_to_grid(grid, data, dx=2)
+    data[5][2] = [6, 7]
+    add_data_to_grid(grid, data, dx=8)
+    data[12][2] = [6, 7]
+    add_data_to_grid(grid, data, dx=14)
+    
+    return grid 
+
 def create_wire_grid():
     """Create a default gear grid with dimensions 18×38, 4 layers, and mark one gear as 'Driver'."""
     rows, cols = 10, 20
     num_layers = 4
-    random.seed(4468)
     grid = MultiLayerGearGrid(rows, cols, num_layers)
     grid.grid[1][1].layers_teeth_flags[0][7] = True
     grid.grid[1][1].gear_type = 'Driver'
@@ -77,12 +134,12 @@ def create_my_gear_grid1():
     return grid
 
 def generate_all_files():
-    # 1. Create the gear grid.
     grid = create_wire_grid()
+    save_gear_grid(grid, "wire.json")
+    
+    grid = create_OR_gate()
+    save_gear_grid(grid, "OR_gate.json")
 
-    # 2. Save the gear grid state to a JSON file.
-    json_filename = "wire.json"
-    save_gear_grid(grid, json_filename)
 
 def main():
     last_filename = "last_file.txt"
@@ -99,7 +156,7 @@ def main():
     print(f"Gear grid loaded from: {json_filename}")
 
     # 4. Create the visualizer (base_radius is used for drawing layout).
-    visualizer = GearGridVisualizer(grid, base_radius=25)
+    visualizer = GearGridVisualizer(grid, base_radius=25, screen_width = 1050, screen_height = 500)
     
     steps_per_rotation = 10
     # Each tooth (for an 8-tooth gear) covers 360/8 degrees; we split that into small steps.
@@ -130,4 +187,3 @@ def main():
 if __name__ == "__main__":
     generate_all_files()
     main()
-
