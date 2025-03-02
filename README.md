@@ -7,3 +7,9 @@ Run main.py to see UI.
 Run grid_editor.py to see geenrate all grid examples.
 
 ```python grid_editor.py```
+
+Examples:
+
+**Wire**
+
+<img src="presentation/wire.gif" width="40%" height="20%" />
