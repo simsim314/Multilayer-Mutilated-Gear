@@ -12,4 +12,8 @@ Examples:
 
 **Wire**
 
-<img src="presentation/wire.gif" width="40%" height="20%" />
+<img src="presentation/wire.gif" width="60%" height="20%" />
+
+**OR Gates**
+
+<img src="presentation/OR_Gates.gif" width="60%" height="20%" />
