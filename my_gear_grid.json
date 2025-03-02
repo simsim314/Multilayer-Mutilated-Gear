@@ -1,0 +1,1933 @@
+{
+  "rows": 7,
+  "cols": 7,
+  "num_layers": 3,
+  "num_teeth": 8,
+  "grid": [
+    [
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driver",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driver",
+        "direction": -1,
+        "will_rotate": false
+      }
+    ],
+    [
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      }
+    ],
+    [
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      }
+    ],
+    [
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      }
+    ],
+    [
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      }
+    ],
+    [
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      }
+    ],
+    [
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driver",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": -1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true
+          ]
+        ],
+        "gear_type": "Driven",
+        "direction": 1,
+        "will_rotate": false
+      },
+      {
+        "num_teeth": 8,
+        "num_layers": 3,
+        "layers_teeth_flags": [
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        "gear_type": "Driver",
+        "direction": -1,
+        "will_rotate": false
+      }
+    ]
+  ]
+}

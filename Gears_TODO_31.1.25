@@ -1,0 +1,38 @@
+70H 
+
+
+MMG-Simulator (25 h) - took 6H 
+- 3h seperation of logic and o3 usage 
+- 1h gear definitions online bug fixes
+- 1h buttons
+- 1h viewer
+
+V-- Seperate logic from animation 
+
+
+V- File format loader and saver (5 h)
+V-- Gears dimentions Ex: 8 teeth 3 layers
+V-- GearSystem rectangular dimentions Ex: 100x100
+V-- Gear definitions: Single: {Active/Passive, Tooth dimnetions bool array from angle = 0}, Grid: left to right, top to bottom 
+
+V- Animation buttons play/pause/run/start (2 h)
+V- Viewer zoom in and out and pan while animating, can pause (18 h)
+
+-------------------------------------------
+
+
+Generate Circuits (15 h)
+1. Wire
+2. Time delay
+3. Or/and/xor gates 
+4. intersection
+
+Wire compiler (30 h): 
+
+- Given wire + gate logic (3 h)
+- From this format compile to curcuits MMG-State
+-- Generate wire intersections (1 h)
+-- Follow the wires and compute timing (25 h)
+--- adjust timing at each grid point to the needed timing
+--- rescale to allow fit of all logic inside GearSystem (1 h)
+
